@@ -1,0 +1,15 @@
+<?php
+//soalan 3
+$nombor = array ("5", "2", "8", "1", "9", "4");
+
+sort($nombor);
+print_r($nombor);
+
+echo "<br>";
+
+$nombor = array ("5", "2", "8", "1", "9", "4");
+
+rsort($nombor);
+print_r($nombor);
+
+?>
